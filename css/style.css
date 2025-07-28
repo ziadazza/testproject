@@ -281,6 +281,11 @@ main section.Portfolio .courses {
 
 }
 
+main section.Portfolio .courses img {
+    width: 100%;
+
+}
+
 main section.Portfolio .courses div.course-item {
     width: 28%;
     background-color: #ffffff;
