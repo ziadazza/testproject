@@ -207,8 +207,9 @@ main section.features div.one button {
     outline: 0;
     background-color: transparent;
     align-self: flex-start;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 main section.features div.one button a {
