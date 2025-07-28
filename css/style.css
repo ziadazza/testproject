@@ -414,6 +414,7 @@ main section.testimonials div.middle_testimonials {
     border-radius: 40px;
     position: absolute;
     top: 73%;
+    z-index: 7;
 
 }
 
@@ -465,6 +466,12 @@ main section.testimonials div.bottom_testimonials {
     width: 100%;
     padding: 300px 300px 100px;
     background-color: #fdf6e4;
+    position: relative;
+}
+
+main section.testimonials div.bottom_testimonials .image_absluate {
+    position: absolute;
+    left: 0;
 }
 
 main section.testimonials div.bottom_testimonials h2 {
