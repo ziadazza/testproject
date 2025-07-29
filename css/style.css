@@ -207,9 +207,8 @@ main section.features div.one button {
     outline: 0;
     background-color: transparent;
     align-self: flex-start;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 20px;
-    font-weight: bold;
 }
 
 main section.features div.one button a {
@@ -362,8 +361,8 @@ main section.testimonials div.top_testimonials {
 main section.testimonials div.top_testimonials div.left_side_testimonials h2 {
     font-size: 3rem;
     color: #333;
-    width: 64%;
-    line-height: 4.3rem;
+    width: 70%;
+    line-height: 5rem;
     margin-left: -20px;
 
 }
@@ -415,7 +414,6 @@ main section.testimonials div.middle_testimonials {
     border-radius: 40px;
     position: absolute;
     top: 73%;
-    z-index: 7;
 
 }
 
@@ -467,18 +465,12 @@ main section.testimonials div.bottom_testimonials {
     width: 100%;
     padding: 300px 300px 100px;
     background-color: #fdf6e4;
-    position: relative;
-}
-
-main section.testimonials div.bottom_testimonials .image_absluate {
-    position: absolute;
-    left: 0;
 }
 
 main section.testimonials div.bottom_testimonials h2 {
     font-size: 2.2rem;
     color: #333;
-    width: 25%;
+    width: 27%;
     line-height: 3.2rem
 }
 
@@ -589,4 +581,296 @@ footer .footer_content .footer_bottom p {
     color: white;
     font-size: 0.8rem;
     color: #fdf6e4ab;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        padding: 10px 30px;
+    }
+
+    main #hero .heroTop {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    main #hero .heroTop h1 {
+        width: 80%;
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 20px;
+    }
+
+    main #hero .heroTop .insideheroTop {
+        width: 80%;
+    }
+
+    main section.statistics div {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    main section.Services {
+        flex-direction: column;
+    }
+
+    main section.Services .left_side_smart-education img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    main section.Services .right_side_smart-education {
+        width: 80%;
+    }
+
+    main section.Services .right_side_smart-education h2 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    main section.features {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    main section.features div.one {
+        grid-column: 1 / span 1;
+        text-align: center;
+        padding: 20px;
+    }
+
+    main section.features div.one h2 {
+        padding: 0;
+        text-align: center;
+    }
+
+    main section.features div.one button {
+        margin: 20px auto 0;
+    }
+
+    main section.features div {
+        padding: 0 20px;
+        height: auto;
+    }
+
+    main section.Portfolio {
+        padding: 50px 20px;
+    }
+
+    main section.Portfolio .courses {
+        flex-direction: column;
+    }
+
+    main section.Portfolio .courses div.course-item {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    main section.Portfolio .courses h3 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    main section.features .feature-item {
+        padding: 20px;
+    }
+
+    main section.Portfolio .courses a {
+        margin-right: 0;
+        align-self: center;
+    }
+
+    main section.testimonials div.top_testimonials {
+        padding: 50px 20px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    main section.testimonials div.top_testimonials div.left_side_testimonials {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    main section.testimonials div.top_testimonials div.left_side_testimonials h2 {
+        width: 100%;
+        margin-left: 0;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    main section.testimonials div.top_testimonials div.left_side_testimonials p {
+        width: 100%;
+    }
+
+    main section.testimonials div.top_testimonials figure.right_side_testimonials img {
+        width: 100%;
+        height: auto;
+    }
+
+    main section.testimonials div.middle_testimonials {
+        width: 90%;
+        padding: 10px 20px 0;
+        flex-direction: column;
+        position: static;
+        margin-top: 30px;
+    }
+
+    main section.testimonials div.middle_testimonials .left img {
+        width: 100%;
+        height: auto;
+    }
+
+    main section.testimonials div.middle_testimonials .right {
+        padding: 20px;
+        text-align: center;
+    }
+
+    main section.testimonials div.middle_testimonials .right h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    main section.testimonials div.bottom_testimonials {
+        padding: 50px 20px;
+    }
+
+    main section.testimonials div.bottom_testimonials h2 {
+        width: 90%;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    main section.testimonials div.bottom_testimonials div.download_app {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer {
+        padding: 0 20px;
+    }
+
+    footer .footer_content .footer_top {
+        flex-direction: column;
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    footer .footer_content .footer_top .footer_top_left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    footer .footer_content .footer_top .social_media {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    footer .footer_content .footer_bottom {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer .footer_content .footer_bottom a,
+    footer .footer_content .footer_bottom p {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 15px;
+    }
+
+    header nav ul {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header nav .registar {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main #hero .heroTop h1 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    main #hero .heroTop .insideheroTop {
+        width: 95%;
+    }
+
+    main section.statistics div {
+        width: 100%;
+        border-bottom: 1px solid #f9c265;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    main section.statistics div{
+        border-bottom: none;
+    }
+
+ 
+
+    main section.Services .right_side_smart-education {
+        width: 95%;
+    }
+
+    main section.Services .right_side_smart-education h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    main section.features {
+        padding: 10px;
+    }
+
+    main section.features .feature-item {
+        padding: 10px;
+    }
+
+    main section.features div.one h2 {
+        font-size: 2rem;
+    }
+
+    main section.Portfolio .courses div.course-item {
+        width: 100%;
+    }
+
+    main section.testimonials div.top_testimonials div.left_side_testimonials h2 {
+        font-size: 2rem;
+        line-height: 3.6rem;
+    }
+
+    main section.testimonials div.middle_testimonials {
+        width: 95%;
+    }
+
+    main section.testimonials div.middle_testimonials .right h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    main section.testimonials div.bottom_testimonials h2 {
+        font-size: 1.5rem;
+            width: 86%;
+                line-height: 3rem;
+    }
+
+    footer .footer_content .footer_top {
+        padding: 10px;
+    }
+
+    footer .footer_content .footer_bottom {
+        padding: 10px;
+    }
+
+
 }
