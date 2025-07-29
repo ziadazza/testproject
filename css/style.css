@@ -361,7 +361,7 @@ main section.testimonials div.top_testimonials {
 main section.testimonials div.top_testimonials div.left_side_testimonials h2 {
     font-size: 3rem;
     color: #333;
-    width: 70%;
+    width: 62%;
     line-height: 5rem;
     margin-left: -20px;
 
@@ -414,6 +414,7 @@ main section.testimonials div.middle_testimonials {
     border-radius: 40px;
     position: absolute;
     top: 73%;
+    z-index: 7;
 
 }
 
@@ -434,6 +435,7 @@ main section.testimonials div.middle_testimonials .right h2 {
     width: 100%;
     line-height: 4.3rem;
     margin-bottom: 20px;
+    
 }
 
 main section.testimonials div.middle_testimonials .right p {
@@ -465,12 +467,16 @@ main section.testimonials div.bottom_testimonials {
     width: 100%;
     padding: 300px 300px 100px;
     background-color: #fdf6e4;
+    position: relative;
 }
-
+.image_absluate {
+    position: absolute;
+    left: 0;
+}
 main section.testimonials div.bottom_testimonials h2 {
     font-size: 2.2rem;
     color: #333;
-    width: 27%;
+    width: 24%;
     line-height: 3.2rem
 }
 
@@ -871,6 +877,8 @@ footer .footer_content .footer_bottom p {
     footer .footer_content .footer_bottom {
         padding: 10px;
     }
-
+.image_absluate {
+    display: none;
+}
 
 }
